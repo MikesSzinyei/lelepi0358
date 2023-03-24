@@ -3,13 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sablon</title>
+    <title>lelepi</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Sablon</h1>
+        <h1>Paralelepipedon térfogat számolás</h1>
+        <h3></h3>
+
+        <div class="mt-3">
+            <label for="sideA"
+            class="form-label">'A' oldal</label>
+
+            <input type="text" id="sideA"
+            class="form-control">
+        </div>
+
+        <div class="mt-3">
+            <label for="sideB"
+            class="form-label">'B' oldal</label>
+
+            <input type="text" id="sideB"
+            class="form-control">
+        </div>
+
+        <div class="mt-3">
+            <label for="sideC"
+            class="form-label">'C' oldal</label>
+
+            <input type="text" id="sideC"
+            class="form-control">
+        </div>
+
+        <div class="mt-3">
+            <button  id="calcButton"
+            class="btn btn-primary">Számít</button>
+        </div>
+
+        <div class="mt-3 me-3" id="result">
+            <label for="volume"
+            class="form-label">Térfogat</label>
+            
+            <input type="text" id="volume"
+            class="form-control" readonly>
+        </div>
+
+
+
     </div>
     <script src="js/bootstrap.js"></script>
     <script src="app.js"></script>
